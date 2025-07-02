@@ -107,9 +107,21 @@ const char* html = R"rawliteral(
         .settings-button {
             background-color: #2ae168;
         }
+		
+        .settings-button:hover {
+            background-color:rgb(27, 143, 65); 
+            transform: translateY(-4px) scale(1.05); 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        }
 
         .ota-button {
             background-color: #ffba00; 
+        }
+		
+        .ota-button:hover {
+            background-color:rgb(170, 125, 0); 
+            transform: translateY(-4px) scale(1.05); 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
         }
 
         .dropdown {
